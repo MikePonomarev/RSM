@@ -1,4 +1,4 @@
-package ru.mupsoftware.rsm.util;
+package ru.pmsoftware.rsm.util;
 
 import java.time.LocalTime;
 

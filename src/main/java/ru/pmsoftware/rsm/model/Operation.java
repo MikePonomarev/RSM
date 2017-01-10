@@ -1,4 +1,4 @@
-package ru.mupsoftware.rsm.model;
+package ru.pmsoftware.rsm.model;
 
 import java.time.LocalDateTime;
 
@@ -15,17 +15,13 @@ public class Operation {
 
     private final Location location;
 
-    private final OperationType operationType;
-
     private final String description;
 
-    public Operation(LocalDateTime dateTime, int value, Contragent contragent, Location location,
-                     OperationType operationType, String description) {
+    public Operation(LocalDateTime dateTime, int value, Contragent contragent, Location location, String description) {
         this.dateTime = dateTime;
         this.value = value;
         this.contragent = contragent;
         this.location = location;
-        this.operationType = operationType;
         this.description = description;
     }
 
@@ -43,10 +39,6 @@ public class Operation {
 
     public Location getLocation() {
         return location;
-    }
-
-    public OperationType getOperationType() {
-        return operationType;
     }
 
     public String getDescription() {

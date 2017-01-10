@@ -1,4 +1,4 @@
-package ru.mupsoftware.rsm.model;
+package ru.pmsoftware.rsm.model;
 
 /**
  * Created by Mike on 26.11.2016.
