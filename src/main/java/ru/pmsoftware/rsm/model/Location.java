@@ -6,21 +6,15 @@ import java.time.LocalDateTime;
  * MPonomarev
  * 26.11.2016
  */
-public class Location {
-    private final String name;
+public class Location extends NamedEntity {
+    private LocalDateTime dateTime;
 
-    private final LocalDateTime dateTime;
+    private int budget;
 
-    private final int budget;
-
-    public Location(String name, LocalDateTime dateTime, int budget) {
-        this.name = name;
+    public Location(Integer id, String name, LocalDateTime dateTime, int budget) {
+        super(id, name);
         this.dateTime = dateTime;
         this.budget = budget;
-    }
-
-    public String getName() {
-        return name;
     }
 
     public LocalDateTime getDateTime() {

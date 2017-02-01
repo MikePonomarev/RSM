@@ -6,21 +6,26 @@ import java.time.LocalDateTime;
  * MPonomarev
  * 26.11.2016
  */
-public class Operation {
+public class Operation extends BaseEntity {
     private final LocalDateTime dateTime;
 
     private final int value;
 
-    private final Contragent contragent;
+    private final User user;
 
     private final Location location;
 
     private final String description;
 
-    public Operation(LocalDateTime dateTime, int value, Contragent contragent, Location location, String description) {
+    public Operation(LocalDateTime dateTime, int value, User user, Location location, String description) {
+        this(null, dateTime, value, user, location, description);
+    }
+
+    public Operation(Integer id, LocalDateTime dateTime, int value, User user, Location location, String description) {
+        super(id);
         this.dateTime = dateTime;
         this.value = value;
-        this.contragent = contragent;
+        this.user = user;
         this.location = location;
         this.description = description;
     }
@@ -33,8 +38,8 @@ public class Operation {
         return value;
     }
 
-    public Contragent getContragent() {
-        return contragent;
+    public User getUser() {
+        return user;
     }
 
     public Location getLocation() {

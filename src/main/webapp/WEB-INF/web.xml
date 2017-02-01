@@ -6,13 +6,13 @@
     <display-name>RSMHelper</display-name>
 
     <servlet>
-        <servlet-name>staffServlet</servlet-name>
-        <servlet-class>ru.pmsoftware.rsm.web.StaffServlet</servlet-class>
+        <servlet-name>operationsServlet</servlet-name>
+        <servlet-class>ru.pmsoftware.rsm.web.OperationsServlet</servlet-class>
         <load-on-startup>0</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>staffServlet</servlet-name>
-        <url-pattern>/staff</url-pattern>
+        <servlet-name>operationsServlet</servlet-name>
+        <url-pattern>/operations</url-pattern>
     </servlet-mapping>
 
     <servlet>
