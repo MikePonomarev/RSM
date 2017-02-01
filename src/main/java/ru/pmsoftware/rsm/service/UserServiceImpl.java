@@ -9,15 +9,15 @@ import ru.pmsoftware.rsm.util.exception.NotFoundException;
 
 import java.util.List;
 
-/**
- * MPonomarev
- * 01.02.2017
- */
 @Service
 public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserRepository repository;
+
+    public void setRepository(UserRepository repository) {
+        this.repository = repository;
+    }
 
     @Override
     public User save(User user) {

@@ -2,10 +2,6 @@ package ru.pmsoftware.rsm.model;
 
 import java.time.LocalDateTime;
 
-/**
- * MPonomarev
- * 26.11.2016
- */
 public class Location extends NamedEntity {
     private LocalDateTime dateTime;
 

@@ -6,10 +6,6 @@ import ru.pmsoftware.rsm.repository.InMemoryOperationRepository;
 
 import java.io.IOException;
 
-/**
- * MPonomarev
- * 10.01.2017
- */
 public class OperationsServlet extends javax.servlet.http.HttpServlet {
     private static final Logger LOG = LoggerFactory.getLogger(OperationsServlet.class);
 

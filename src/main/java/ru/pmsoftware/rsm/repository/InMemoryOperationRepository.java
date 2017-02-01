@@ -1,5 +1,6 @@
 package ru.pmsoftware.rsm.repository;
 
+import org.springframework.stereotype.Repository;
 import ru.pmsoftware.rsm.model.Location;
 import ru.pmsoftware.rsm.model.Operation;
 import ru.pmsoftware.rsm.model.User;
@@ -11,10 +12,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * MPonomarev
- * 14.01.2017
- */
+@Repository
 public class InMemoryOperationRepository implements OperationRepository {
     private Map<Integer, Operation> repository = new ConcurrentHashMap<>();
 

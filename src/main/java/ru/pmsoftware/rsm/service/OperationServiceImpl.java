@@ -9,10 +9,6 @@ import ru.pmsoftware.rsm.util.exception.ExceptionUtil;
 import java.time.LocalDateTime;
 import java.util.Collection;
 
-/**
- * MPonomarev
- * 01.02.2017
- */
 @Service
 public class OperationServiceImpl implements OperationService {
 

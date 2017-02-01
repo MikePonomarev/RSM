@@ -3,10 +3,6 @@ package ru.pmsoftware.rsm.model;
 import java.util.Date;
 import java.util.Set;
 
-/**
- * MPonomarev
- * 26.11.2016
- */
 public class User extends NamedEntity {
     protected String email;
 

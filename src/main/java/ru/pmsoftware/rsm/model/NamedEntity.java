@@ -1,9 +1,5 @@
 package ru.pmsoftware.rsm.model;
 
-/**
- * MPonomarev
- * 26.11.2016
- */
 public class NamedEntity extends BaseEntity {
 
     protected String name;

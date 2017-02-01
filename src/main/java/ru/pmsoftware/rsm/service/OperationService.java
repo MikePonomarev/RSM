@@ -8,10 +8,6 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.Collection;
 
-/**
- * MPonomarev
- * 01.02.2017
- */
 public interface OperationService {
     Operation get(int id, int userId) throws NotFoundException;
 

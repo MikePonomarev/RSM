@@ -5,10 +5,6 @@ import ru.pmsoftware.rsm.model.Operation;
 import java.time.LocalDateTime;
 import java.util.Collection;
 
-/**
- * MPonomarev
- * 14.01.2016
- */
 public interface OperationRepository {
     // null if updated meal do not belong to userId
     Operation save(Operation meal, int userId);

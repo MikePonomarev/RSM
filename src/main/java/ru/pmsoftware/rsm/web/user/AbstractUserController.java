@@ -8,10 +8,6 @@ import ru.pmsoftware.rsm.service.UserService;
 
 import java.util.List;
 
-/**
- * MPonomarev
- * 01.02.2017
- */
 public abstract class AbstractUserController {
     protected final Logger LOG = LoggerFactory.getLogger(getClass());
 

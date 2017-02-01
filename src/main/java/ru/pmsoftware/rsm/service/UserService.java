@@ -6,10 +6,6 @@ import ru.pmsoftware.rsm.util.exception.NotFoundException;
 
 import java.util.List;
 
-/**
- * MPonomarev
- * 01.02.2017
- */
 public interface UserService {
 
     User save(User user);

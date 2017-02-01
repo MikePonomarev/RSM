@@ -1,9 +1,5 @@
 package ru.pmsoftware.rsm.model;
 
-/**
- * MPonomarev
- * 26.11.2016
- */
 public class BaseEntity {
     public static final int START_SEQ = 100000;
 

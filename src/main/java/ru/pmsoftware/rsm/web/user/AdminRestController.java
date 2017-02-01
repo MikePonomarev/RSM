@@ -5,10 +5,6 @@ import ru.pmsoftware.rsm.model.User;
 
 import java.util.List;
 
-/**
- * MPonomarev
- * 01.02.2017
- */
 @Controller
 public class AdminRestController extends AbstractUserController {
 

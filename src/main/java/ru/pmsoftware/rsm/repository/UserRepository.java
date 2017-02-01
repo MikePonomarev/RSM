@@ -4,10 +4,6 @@ import ru.pmsoftware.rsm.model.User;
 
 import java.util.List;
 
-/**
- * MPonomarev
- * 14.01.2016
- */
 public interface UserRepository {
     User save(User user);
 

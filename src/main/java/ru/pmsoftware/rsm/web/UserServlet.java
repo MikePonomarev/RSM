@@ -9,10 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * MPonomarev
- * 10.01.2017
- */
 public class UserServlet extends HttpServlet {
     private static final Logger LOG = LoggerFactory.getLogger(UserServlet.class);
 

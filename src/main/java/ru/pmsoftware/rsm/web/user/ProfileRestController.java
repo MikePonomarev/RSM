@@ -4,10 +4,6 @@ import org.springframework.stereotype.Controller;
 import ru.pmsoftware.rsm.AuthorizedUser;
 import ru.pmsoftware.rsm.model.User;
 
-/**
- * MPonomarev
- * 01.02.2017
- */
 @Controller
 public class ProfileRestController extends AbstractUserController {
 
